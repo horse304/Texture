@@ -26,7 +26,7 @@
  * The construction listed above does not show the user what arguments are required and what are optional.
  */
 
-#define ASDisplayNodeAssert(condition, desc, ...) NSAssert(condition, desc, ##__VA_ARGS__)
+#define ASDisplayNodeAssert(condition, desc, ...) //NSAssert(condition, desc, ##__VA_ARGS__)
 #define ASDisplayNodeCAssert(condition, desc, ...) NSCAssert(condition, desc, ##__VA_ARGS__)
 
 #define ASDisplayNodeAssertNil(condition, desc, ...) ASDisplayNodeAssert((condition) == nil, desc, ##__VA_ARGS__)
